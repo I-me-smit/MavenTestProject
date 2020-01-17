@@ -8,7 +8,9 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>calculator</name>
 	<url>http://maven.apache.org</url>
-	
+	<properties>
+        <java.home>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/bin/javac</java.home>
+  	</properties>
 	<dependencies>
    		<dependency>
    			<groupId>junit</groupId>
